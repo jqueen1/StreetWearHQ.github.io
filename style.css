@@ -29,7 +29,40 @@ header{
    width: 100%;
 }
 
+.a{
+	color:#eb346e;
+	
+}
+
+.a:hover{
+opacity: 1;
+background-color:skyblue;
+text-decoration:none;
+}
+
 h5{
+color:#eb34ab !important;
+font-family: 'Fascinate Inline', cursive;
+font-style: italic;
+text-align: center;
+font-size: 1.5rem;
+}
+
+.link{
+color:#eb34ab !important;
+background-color: yellowgreen;
+font-family: 'Fascinate Inline', cursive;
+font-style: italic;
+text-align: center;
+font-size: 1.5rem;
+text-decoration: underline;
+}
+
+.link:hover{
+	background-color: red;
+}
+
+.cta{
 color:#eb34ab !important;
 font-family: 'Fascinate Inline', cursive;
 font-style: italic;
@@ -63,6 +96,21 @@ background-color:skyblue;
  .team{
 color: white;
  }
+
+ .nr{
+	 background-color:lightcoral;
+}
+
+
+
+/* fonts to use
+font-family: 'Dancing Script', cursive; 
+
+font-family: 'Amatic SC', cursive;
+
+font-family: 'Sacramento', cursive;
+
+*/
 
  h6{
 color:#eb34ab !important;
@@ -107,12 +155,90 @@ p{
 	height:80px;
 }
 
+/* styling for new releases */
+
+.sails{
+	font-size:30px;
+	width:250px;
+	height:250px;
+	margin-bottom:50px;
+border-radius:30%;
+padding:10px 10px;
+}
+
+.sacais{
+	font-size:30px;
+	width:250px;
+	height:250px;
+margin-bottom:50px;
+border-radius:30%;
+padding:10px 10px;
+}
+
+.nbs{
+	font-size:30px;
+	width:250px;
+	height:250px;
+margin-bottom:50px;
+border-radius:30%;
+padding:10px 10px;
+}
+
+.sbs{
+	font-size:30px;
+	width:250px;
+	height:250px;
+margin-bottom:50px;
+border-radius:30%;
+padding:10px 10px;
+}
+
+.yeezys{
+	font-size:30px;
+	width:250px;
+	height:250px;
+margin-bottom:50px;
+border-radius:30%;
+padding:10px 10px;
+}
+
+.grateful{
+	font-size:30px;
+	width:250px;
+	height:250px;
+margin-bottom:50px;
+border-radius:30%;
+padding:10px 10px;
+}
+
+.dunks{
+	font-size:30px;
+	width:250px;
+	height:250px;
+margin-bottom:50px;
+border-radius:30%;
+padding:10px 10px;
+}
+
+.stussy{
+	font-size:30px;
+	width:250px;
+	height:250px;
+	margin-bottom:50px;
+border-radius:30%;
+padding:10px 10px;
+}
+
+
+
+/* styling for teams */
+
 .jess{
 	font-size:30px;
 	border-radius:50%;
 	width:250px;
 	height:250px;
-	object-fit:cover;
+	
 margin-bottom:50px;
 }
 
@@ -121,7 +247,6 @@ margin-bottom:50px;
 	border-radius:50%;
 	width:250px;
 	height:250px;
-	object-fit:cover;
 margin-bottom:50px;
 }
 
@@ -130,7 +255,6 @@ margin-bottom:50px;
 	border-radius:50%;
 	width:250px;
 	height:250px;
-	object-fit:cover;
 margin-bottom:50px;
 }
 
@@ -139,9 +263,11 @@ margin-bottom:50px;
 	border-radius:50%;
 	width:250px;
 	height:250px;
-	object-fit:cover;
 margin-bottom:50px;
 }
+
+
+
 
 h3{
 	color:#eb346e !important;
@@ -155,40 +281,254 @@ h3{
 	background-color:plum;
 }
 
-
-.contact .input-group {
-margin-bottom: 25px;
-}
-
-.contact i {
-	padding: 15px;
-	color: #e642f5;
-}
-
-.contact{
-	margin-bottom: 80px;
-}
-
-.contact btn{
-	border-radius: 0;
-	width: 100%;
-	font-size: 15px;
-
-}
-
-.contact .btn:hover{
-	background-color: #e042f5;
-color:#f54299 !important
-}
-
 footer{
-	background-color:whitesmoke;
+	background-color:darkblue;
+}
+
+
+.ok{
+width: 270px;
+height: 270px;
+}
+
+.ok:hover {
+  border: 2px solid #e642f5;
+}
+
+.fab.fa-twitter-square {
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+}
+
+.copyright-text
+{
+  margin:0
+}
+
+
+.overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 57%;
+  width: 99%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:lightcoral;
+	border-radius: 30rem;
+}
+
+.container:hover .overlay {
+  opacity: 10;
+}
+
+.text {
+  color:whitesmoke;
+	font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay2 {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 57%;
+  width: 99%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#946;
+	border-radius: 30rem;
+}
+
+.container:hover .overlay2 {
+  opacity: 10;
+}
+
+.overlay3 {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 57%;
+  width: 99%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#f54299;
+	border-radius: 30rem;
+}
+
+.container:hover .overlay3 {
+  opacity: 10;
+}
+
+
+.overlay4{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 57%;
+  width: 99%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#e042f5;
+	border-radius: 30rem;
+}
+.container:hover .overlay4 {
+  opacity: 10;
+}
+
+@media screen and (max-width: 600px) {
+  .overlay .overlay2 .overlay3 .overlay4,{
+    width: 99%;
+    margin-top: 0;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 
 
+
+/* Style the container/contact section */
+.containercontact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 4px;
+  }
+}
+
+
+.social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#ea4c89;
+}
+
+
+@media (max-width:767px)
+{
+  .social-icons
+  {
+    text-align:center
+  }
 }
 
 
 
 
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+
+
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  
+}
+
+
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.instagram:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
